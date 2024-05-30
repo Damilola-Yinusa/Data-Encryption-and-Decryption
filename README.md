@@ -22,7 +22,7 @@ This Python application allows you to encrypt and decrypt files using various en
    git clone https://github.com/Damilola-Yinusa/Data-Encryption-and-Decryption.git
    cd file-encryption-decryption
 
-  ```
+        ```
 Set up a virtual environment (optional but recommended):
 
      ```bash
@@ -54,7 +54,7 @@ To generate RSA public and private keys:
 
 ```bash
 python Data-Encryption-and-Decryption.py generate_rsa_keys
-```
+      ```
 This will create private.pem and public.pem files in your current directory.
 
 Encrypt a File
@@ -63,23 +63,23 @@ AES Encryption:
 ```bash
 python Data-Encryption-and-Decryption.py encrypt aes path/to/your/file.txt --password your_password
 
-```
+      ```
 RSA Encryption:
 
 ```bash
 python Data-Encryption-and-Decryption.py encrypt rsa path/to/your/file.txt --key path/to/public.pem
-```
+      ```
 Decrypt a File
 AES Decryption:
 
 ```bash
 python Data-Encryption-and-Decryption.py decrypt aes path/to/your/file.txt.enc --password your_password
-```
+      ```
 RSA Decryption:
 
 ```bash
 python Data-Encryption-and-Decryption.py decrypt rsa path/to/your/file.txt.enc --key path/to/private.pe
-```
+      ```
 
 
 Arguments
