@@ -20,8 +20,9 @@ This Python application allows you to encrypt and decrypt files using various en
 
     ```bash
    git clone https://github.com/Damilola-Yinusa/Data-Encryption-and-Decryption.git
+    
    cd file-encryption-decryption
-             ```
+             
 Set up a virtual environment (optional but recommended):
 
      ```bash
