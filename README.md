@@ -28,12 +28,12 @@ Set up a virtual environment (optional but recommended):
      ```bash
      python -m venv venv
      
-     ```
+   
 On Windows:
 
       ```bash
      venv\Scripts\activate   
-     ```
+
 On macOS/Linux:
 
   ```bash
